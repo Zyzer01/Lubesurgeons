@@ -13,7 +13,6 @@ function Services(props) {
                         <div class="flex mt-3 mb-5 justify-center">
                             <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
                         </div>
-
                         <div class="flex container mx-auto space-x-32 items-center py-5">
                             <div>
                                 <div class="w-20 h-15 inline-flex items-center rounded-full mb-5 flex-shrink-0">

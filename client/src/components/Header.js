@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './utilities/Button';
 
 function Header(props) {
     return (
@@ -20,8 +21,9 @@ function Header(props) {
                     </div>
                     <div>
                         <a href='null' class="inline-flex items-center mr-2 py-1 px-3 focus:outline-none underline text-balablue mt-4 md:mt-0">Sign in</a>
-                        <button class="inline-flex items-center bg-balablue border-2 border-balablue py-2 px-3 focus:outline-none hover:bg-white hover:text-balablue hover:border-2 hover:border-balablue transition-all rounded-lg text-white mt-4 md:mt-0">Book Now
-                        </button>
+                        <Button
+                            text="Book Now"
+                        />
                     </div>
                 </div>
             </header>

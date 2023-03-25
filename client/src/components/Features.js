@@ -1,16 +1,14 @@
 import React from 'react';
+import Heading from './utilities/Heading';
 
 function Features(props) {
     return (
         <div>
             <section class="text-gray-600 body-font">
                 <div class="container px-16 py-24 mx-auto">
-                    <div class="text-center mb-20">
-                        <h1 class="sm:text-4xl text-2xl font-bold title-font text-balablue mb-4">How It Works</h1>
-                        <div class="flex mt-6 justify-center">
-                            <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
-                        </div>
-                    </div>
+                    <Heading
+                        title="How It Works"
+                    />
                     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                         <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
                             <div class="w-32 h-20 inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
